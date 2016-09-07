@@ -1,0 +1,17 @@
+
+h1 {color: white;
+	font-style: italic;
+
+}
+
+p1 {color: white;
+	font-weight: bold;
+	text-align: center;  } 
+
+p {color: white;}
+body {background-color: #000;
+	text-align: center;
+}
+ul {text-align: center;
+	color: white;
+}
