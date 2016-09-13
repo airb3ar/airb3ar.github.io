@@ -2,7 +2,7 @@ h1 {color: white;
 	font-family: 'Merienda One', cursive;
 }
 
-p1 {color: white;
+.1 {color: white;
 	font-family: 'Merienda', cursive;
 	font-weight: bold;
 	text-align: center;
@@ -16,5 +16,6 @@ body {background-color: #000;
 }
 ul {color: white;
 	font-family: 'Merienda', cursive;
+	list-style-position: inside;
 	text-align: center;
 }
