@@ -57,3 +57,32 @@ footer {background-color: #000;
 	clear: both;
 	height: 0;
 }
+
+@media only screen and (max-width: 1200px)
+{
+	.wrapper {
+		width: 100%;
+	} 
+	header, body {
+		width: 80%;
+		float: none;
+	}
+	h1, .1 {
+		width: 80%;
+		float: none;
+	}
+	aside, .picture {
+		width: 80%;
+		float: none;
+		padding: 10px;
+	}
+	article, .discription {
+		width: 80%;
+		float: none;
+		padding: 10px;
+	}
+	nav, footer {
+		width: 80%;
+		float: none;
+	}
+}
