@@ -35,6 +35,10 @@ aside {background-color: #000;
 	float: left;
 	width: 46%;
 }
+img {
+	max-height: 90%;
+	max-width: 90%;
+}
 article {background-color: #000;
 	padding: 20px;
 	float: right;
@@ -58,35 +62,21 @@ footer {background-color: #000;
 	height: 0;
 }
 
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1060px)
 {
-	.wrapper {
+	body, .wrapper {
 		width: 100%;
-	} 
-	header, body {
+	}
+	header, footer {
+		width: 80%;
+	}
+	article, nav, aside, .discription {
 		width: 80%;
 		float: none;
 	}
-	h1, .1 {
-		width: 80%;
-		float: none;
-	}
-	aside {
-		width: 80%;
-		float: none;
-		padding: 2em;
-	}
-	.picture {
-		float: none;
-		padding: 2em;
-	}
-	article, .discription {
-		width: 80%;
-		float: none;
-		padding: 2em;
-	}
-	nav, footer {
-		width: 80%;
-		float: none;
-	}
+}
+
+@media only screen and (max-width: 700px)
+{
+
 }
