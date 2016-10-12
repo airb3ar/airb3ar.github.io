@@ -74,16 +74,16 @@ footer {background-color: #000;
 	aside {
 		width: 80%;
 		float: none;
-		padding: 10px;
+		padding: 2em;
 	}
 	.picture {
 		float: none;
-		padding: 5px;
+		padding: 2em;
 	}
 	article, .discription {
 		width: 80%;
 		float: none;
-		padding: 10px;
+		padding: 2em;
 	}
 	nav, footer {
 		width: 80%;
