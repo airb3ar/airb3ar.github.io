@@ -1,7 +1,6 @@
 h1 {color: white;
 	font-family: 'Merienda One', cursive;
 }
-
 .1 {color: white;
 	font-family: 'Merienda', cursive;
 	font-weight: bold;
@@ -11,7 +10,9 @@ h1 {color: white;
 p {color: white;
 	font-family: 'Merienda', cursive;
 }
-body {background-color: #000;
+
+body {background-image: url(images/liezel.styles.png);
+	background-size: cover;
 	padding: 20px;
 	text-align: center;
 }
@@ -19,18 +20,24 @@ ul {color: white;
 	font-family: 'Merienda', cursive;
 	list-style-position: inside;
 	text-align: center;
+	margin: 0;
+}
+li {border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	margin: 20px 0 20px 0;
 }
 .description p{margin: 0;
 }
-header {background-color: #000;
+header {
 	padding: 20px;
 }
-nav {background-color: #000;
+nav {
 	padding: 20px;
 	float: right;
 	width: 46%;
 }
-aside {background-color: #000;
+aside {
 	padding: 20px;
 	float: left;
 	width: 46%;
@@ -39,20 +46,15 @@ img {
 	max-height: 90%;
 	max-width: 90%;
 }
-article {background-color: #000;
+article {
 	padding: 20px;
-	float: right;
+	float: left;
 	width: 46%;
 }
-footer {background-color: #000;
+footer {
 	padding: 20px;
 	}
-.wrapper {background-color: #000;
-}
-#two_column {background-color: #000;
-	}
-.picture {margin: 0;
-}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -62,6 +64,9 @@ footer {background-color: #000;
 	height: 0;
 }
 
+#mobile-link {
+	display: none;
+}
 @media only screen and (max-width: 1060px)
 {
 	body, .wrapper {
@@ -78,5 +83,12 @@ footer {background-color: #000;
 
 @media only screen and (max-width: 700px)
 {
+	.description {
+		display:none;
+	}
+
+	#mobile-link {
+		display: block;
+	}
 
 }
